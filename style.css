@@ -1,16 +1,235 @@
-header{
-    background-color: rgb(247, 203, 248);
+/* @media  (max-width:575px){
+   
+    .introtext h1{
+        font-size: 20px;
+    } 
+    
+    div.hlw{padding-top: 100px;
+        padding-left: 40px;
+        font-size: 16px;}
+
+    section .logos{padding-top: 50px;
+        width: 90px;
+        padding-left: 30px;
+   }
+    
+    
+    section .logo a{font-size: 20px;
+      
+        }
+     section.introtext   {
+        background-image: none;
+        height: 300px;
+
+
+     }
+    section .logo{
+        height: 10px;
+        padding-top: 40px;
+
+       
+       
+        
+        
+       
+    
+    }
+   header #logoo{
+        height: 60px;
+    }
+}
+@media  (min-width:576px),(max-width:768px){
+    .introtext h1{
+    font-size: 30px;
+} 
+
+div.hlw{padding-top: 200px;
+    padding-left: 150px;
+    font-size: 27px;
+text-align: left;
+
+
+}
+   
+    section.introtext{
+        height: 600px;
+        background-image: url(media/bg5.jpg);
+        display: list-item;
+        
+    }
+
+
+   section .logo{
+    
+    padding-top: 76px;
+    
+
+}
+section .logo a{font-size: 29px;
+    color: rgb(248, 211, 248);
+
+      
+}
+section .logos{padding-top: 110px;
+    width: 233px;
+    padding-left: 10px;
+}
+
+}
+   
+@media  (min-width:769px)and(max-width:992){
+    
+}
+@media  (min-width:993px)and(max-width:1200){
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+.bodyy{
+    font-family: 'Caveat', cursive;
+    background-color: #6E67B6;
+
+
 }
 
 
+header{
+  
+    font-size: 25px;
+    font-weight: 500;
+  
+   
+ 
 
-#logo { 
+ 
+ 
+   
+  margin-left: auto;
+  margin-right: auto;
+   
+}
+
+
+/* header img {
+    width: 100%;
+    height: auto;
+   
+  } */
+
+
+#logoo { 
 
     height: 
-    70px;
+    100px;
 }
-header{
-    font-size: 20px;
+div .color{
+    color: rgb(250, 253, 255);
+}
 
+.hlw{
+    text-align: center;
+    padding-top: 320px;
+    padding-left: 100px;
+   width: 800px;
+   
+  
+}
+h2{
+    padding-top: 30px;
+    font-weight: 1000;
+}
+.sassy{font-weight: 1000;}
+h5{
+    padding-top:30px ;
+}
+.rumi{
+    color: rgb(248, 3, 117);
+    font-weight: 900;
+    
+}
+.introtext{
+    display: flex;
+    justify-content: center;
+    background-image: url(media/bg0.png); 
+ background-size: 100%;
+background-repeat: no-repeat;
+height: 780px;
+margin-top:140px;
+
+background-position: center; 
+ 
+
+   
+}
+
+       .logos{
+        padding-top: 180px;
+        padding-right: 50px;
+       }
+    
+.logo{
+    height: 80px;
+    padding-top: 100px;
+    padding-right: 200px;
+    
+    
+   
+
+}
+.logo a{
+   color: rgba(5, 85, 95, 0.781);
+   font-size: 30px;
+ 
+   
+   
+
+}
+.logo a:hover{
+   color: rgb(248, 3, 117);
+   
+   
+}
+
+/* About */
+
+#About{
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    
+}
+/* .myprofile{
+    padding-left: 200px;
+} */
+.about{
+    display: flex;
+   
+    justify-content: center;
+    
+   
+}
+.myprofile{
+  margin-right: 400px;
+
+    padding: 20px;
+    background-image: url(media/pro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.myprofile img{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.aboutme{
+    padding-left: 400px;
 }
 
